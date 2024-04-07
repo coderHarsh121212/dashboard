@@ -3,11 +3,15 @@ import { useNavigate } from "react-router-dom";
 
 const UserList = ({ data }) => {
   const navigate = useNavigate();
+  function handleClick(){
+    navigate(`/${data.id}`)
+    navigate('/')
+  }
   return (
     <>
     <div
       className="inner-box"
-      onClick={() => navigate(`/${data.id}`)}
+      onClick={handleClick}
     >
       <div className="border-2  p-2 rounded h-20 md:h-auto mx-2 border-gray-500">
         <img
