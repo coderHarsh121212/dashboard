@@ -3,6 +3,32 @@
 @tailwind utilities;
 
 @layer components {
+  .headtext{
+    @apply text-3xl font-sans font-bold text-center py-4 textcolor
+  }
+  .upper-box{
+    @apply w-full h-full overflow-scroll p-2 flex flex-col gap-2  bg-scroll shadow-2xl 
+  }
+  .inner-box{
+    @apply flex gap-5 p-3  border-2 rounded cursor-pointer hover:shadow-2xl  px-3 md:px-0 border-gray-500 sm:px-7
+  }
+  .right-side{
+    @apply md:w-1/2 backgr h-[100vh] pb-20 p-2 w-full text-white
+  }
+  .main-container{
+    @apply flex flex-col-reverse md:flex-row
+  }
+  .loader-container{
+    @apply  w-full  h-screen flex justify-center items-center bg-gray-600 
+  }
+  .head-sub{
+    @apply font-bold text-yellow-500
+   
+  }
+  .full-head{
+    @apply font-bold text-yellow-500
+  
+  }
   .bg-scroll::-webkit-scrollbar {
     width: 0.3em;
     background: transparent;
@@ -113,30 +139,5 @@
         -2.6em 0em 0 0em rgba(255, 255, 255, 0.7), -1.8em -1.8em 0 0em #0000;
     }
   }
-  .headtext{
-    @apply text-3xl font-sans font-bold text-center py-4 textcolo
-  }
-  .upper-box{
-    @apply w-full h-full overflow-scroll p-2 flex flex-col gap-2  bg-scroll shadow-2xl 
-  }
-  .inner-box{
-    @apply flex gap-5 p-3  border-2 rounded cursor-pointer hover:shadow-2xl  px-3 md:px-0 border-gray-500 sm:px-7
-  }
-  .right-side{
-    @apply md:w-1/2 backgr h-[100vh] pb-20 p-2 w-full text-white
-  }
-  .main-container{
-    @apply flex flex-col-reverse md:flex-row
-  }
-  .loader-container{
-    @apply  w-full  h-screen flex justify-center items-center bg-gray-600 
-  }
-  .head-sub{
-    @apply font-bold text-yellow-500
-   
-  }
-  .full-head{
-    @apply font-bold text-yellow-500
-  
-  }
+ 
 }
