@@ -60,20 +60,20 @@ const UserPage = () => {
                   Other <span className="text-yellow-500">Info....</span>
                 </h1>
                 <p className="full-head">
-                  <span className="head-sub">Username :</span>
+                  <span className="head-sub">Username : </span>
                   {response[findId(id)].profile.username}
                 </p>
                 <p className="full-head">
-                  <span className="head-sub">Email :</span>
+                  <span className="head-sub">Email : </span>
                   {response[findId(id)].profile.email}
                 </p>
 
                 <p className="full-head">
-                  <span className="head-sub">Bio:</span>
+                  <span className="head-sub">Bio : </span>
                   {response[findId(id)].Bio}
                 </p>
                 <p className="full-head">
-                  <span className="head-sub">Created At:</span>
+                  <span className="head-sub">Created At : </span>
                   {response[findId(id)].createdAt}
                 </p>
               </div>
