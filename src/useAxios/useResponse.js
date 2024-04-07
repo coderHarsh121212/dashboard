@@ -18,7 +18,6 @@ const useResponse = (params) => {
 
   useEffect(() => {
     fetchData(params);
- 
   }, [params]);
   return { response, error, loading };
 };

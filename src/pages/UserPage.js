@@ -34,7 +34,7 @@ const UserPage = () => {
   }
   return (
     <div className="w-full backgr md:h-[100vh] md:pb-20  h-fit ">
-      <h1 className="text-3xl font-sans font-bold text-center py-6 textcolor">
+      <h1 className="headtext">
         User Info
       </h1>
     {!response.length==0? <div className=" md:h-[90vh] h-full">
@@ -61,21 +61,21 @@ const UserPage = () => {
               <h1 className="text-center font-mono font-extrabold text-orange-400 text-xl">
                 Other <span className="text-yellow-500">Info....</span>
               </h1>
-              <p className="flex gap-3 lg:gap-5">
-                <span className="font-bold text-yellow-500">Username :</span>
+              <p className="full-head">
+                <span className="head-sub">Username :</span>
                 {response[findId(id)].profile.username}
               </p>
-              <p className="flex gap-3 lg:gap-5">
-                <span className="font-bold text-yellow-500">Email :</span>
+              <p className="full-head">
+                <span className="head-sub">Email :</span>
                 {response[findId(id)].profile.email}
               </p>
 
-              <p className="flex gap-3 lg:gap-5">
-                <span className="font-bold text-yellow-500">Bio:</span>
+              <p className="full-head">
+                <span className="head-sub">Bio:</span>
                 {response[findId(id)].Bio}
               </p>
-              <p className="flex gap-3 lg:gap-5">
-                <span className="font-bold text-yellow-500">Created At:</span>
+              <p className="full-head">
+                <span className="head-sub">Created At:</span>
                 {response[findId(id)].createdAt}
               </p>
             </div>

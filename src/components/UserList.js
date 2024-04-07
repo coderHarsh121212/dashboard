@@ -6,7 +6,7 @@ const UserList = ({ data }) => {
   return (
     <>
     <div
-      className="flex gap-5 p-3  border-2 rounded cursor-pointer hover:shadow-2xl  px-3 md:px-0 border-gray-500 sm:px-7"
+      className="inner-box"
       onClick={() => navigate(`/${data.id}`)}
     >
       <div className="border-2  p-2 rounded h-20 md:h-auto mx-2 border-gray-500">
