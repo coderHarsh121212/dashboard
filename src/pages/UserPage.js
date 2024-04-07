@@ -61,20 +61,20 @@ const UserPage = () => {
                 </h1>
                 <p className="full-head">
                   <span className="head-sub">Username : </span>
-                  {response[findId(id)].profile.username}
+                  <span className="text-white">{response[findId(id)].profile.username}</span>
                 </p>
                 <p className="full-head">
                   <span className="head-sub">Email : </span>
-                  {response[findId(id)].profile.email}
+                  <span className="text-white">{response[findId(id)].profile.email}</span>
                 </p>
 
                 <p className="full-head">
                   <span className="head-sub">Bio : </span>
-                  {response[findId(id)].Bio}
+                  <span className="text-white">{response[findId(id)].Bio}</span>
                 </p>
                 <p className="full-head">
                   <span className="head-sub">Created At : </span>
-                  {response[findId(id)].createdAt}
+                  <span className="text-white">{response[findId(id)].createdAt}</span>
                 </p>
               </div>
             </div>
