@@ -20,6 +20,7 @@ const HomePage = () => {
                     .slice(9)
                     .map((e) => <UserList key={e.profile.email} data={e} />)}
               </div>
+              
             </div>
             <div className="md:w-1/2  w-full md:h-screen">
               <UserPage />
