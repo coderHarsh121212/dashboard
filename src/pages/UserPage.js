@@ -82,7 +82,7 @@ const UserPage = () => {
           </div>
         ) : (
           <div className="w-full flex items-center justify-center h-[70vh]">
-            <p className="text-3xl font-bold">Click on a User Profile....</p>
+            <p className="text-3xl font-bold textcolor">Click on a User Profile....</p>
           </div>
         )}
       </div>:
