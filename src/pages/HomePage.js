@@ -11,7 +11,7 @@ const HomePage = () => {
         <div className=" w-full md:h-[100vh] h-fit">
           <div className="main-container">
             <div className="right-side">
-              <h1 className="headtextr">All Users</h1>
+              <h1 className="headtext">All Users</h1>
               <div className="upper-box">
                 {response &&
                   response
